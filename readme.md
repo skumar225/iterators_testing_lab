@@ -1,8 +1,25 @@
-## Testing with rspec
+##Ruby Iterators Lab
+
+###Overview
+
+In this lab you will be exploring all the wonderful methods Ruby provides for us. You will be reading the docs of the different methods, providing a short description in the 'iterators.md' file provided, and implementing the method in the context of a test using RSpec. 
+
+###Instructions
+1. Fork / clone this repo && open in sublime
+2. `gem install rspec` - you might have to `sudo` this depending on your machine settings (for more on this, see below 'Testing with RSpec')
+3. Open the 'iterators.md' file. And follow the instructions provided. Please note, the methods listed are in the same order as those of the tests so it may be helpful for some to do the description and test concurrently. 
+4. Open the 'iterators_spec.rb' and read over the tests that have been provided. 
+5. run '$rspec spec/iterators_spec.rb' from the iterators_testing_lab directory in terminal to run your tests. See what is passing. Read the information an error provides. 
+6. Make some tests pass. (Note: the first test has been passed for you)
+7. Have fun. Tinker.
+
+
+
+## Testing with RSpec
 
 ### How to get started
 
-Rspec is the testing framework we are going to be using for Ruby (including Rails). To get started:
+RSpec is the testing framework we are going to be using for Ruby (including Rails). To get started:
 
 `gem install rspec` (you might have to `sudo` this depending on your machine settings)
 
@@ -32,43 +49,6 @@ expect(actual).to exist        # passes if actual.exist? and/or actual.exists? a
 ```
 
 The rspec documentation is a great place to find more of these - you can find them [here](https://www.relishapp.com/rspec/rspec-expectations/v/3-1/docs/built-in-matchers)
-
-### Writing your first test
-
-Start with a describe block, and inside an it statement as well
-
-```
-require 'spec_helper'
-
-describe "Some idea, variable or method" do
-    it "is something or does something" do
-        # expect...
-    end
-end 
-```
-
-Let's start with some very simple tests 
-
-```
-describe "Startin" do
-  describe "something" do
-    it "does something that passes" do
-      expect(5).to eq(5)
-    end
-
-    it "does something that fails" do
-      expect(5).to eq(3)
-    end
-
-    it "does something that is pending", pending: true do
-      expect(5).to be < 3
-    end
-
-    xit "does something that is pending because we used xit", do
-      expect(5).to be < 3 #this will be pending
-    end
-  end
-```
 
 ### I'm getting errors!
 

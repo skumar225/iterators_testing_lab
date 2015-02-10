@@ -2,6 +2,7 @@ require_relative './spec_helper'
 
 describe "Iterators" do
 
+#Here we are declaring a few items before we run each test
 before :each do
   @arr = [1,2,3,4,5]
   @hash = {}
