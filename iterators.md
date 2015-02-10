@@ -33,3 +33,12 @@ Below you will find a list of methods. In the space provided below each, please 
 
 ####nil?:
 
+###Hash methods:
+
+####key?:
+
+####keys:
+
+####delete:
+
+####delete_if:

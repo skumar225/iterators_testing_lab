@@ -5,7 +5,7 @@ describe "Iterators" do
 #Here we are declaring a few items before we run each test
 before :each do
   @arr = [1,2,3,4,5]
-  @hash = {}
+  @hash = {:a => 100, :b => 200}
   @nil = nil
 end
   # select
@@ -112,4 +112,35 @@ end
       expect().to be()
     end
   end
-end
+
+#HASH METHODS
+
+  #key?
+  describe "hash method - #key?" do
+    it "should return true if hash contains a key of :b" do
+      expect().to be()
+    end
+  end
+
+  #keys
+  describe "hash method - #keys" do
+    it "should return array of symbols" do
+      expect().to eq()
+    end
+  end
+
+  #delete
+  describe "hash method - #delete" do
+    it "should return value of key that is deleted" do
+      expect().to eq()
+    end
+  end
+
+  #delete_if
+  describe "hash method - #delete_if" do
+    it "should delete key/value pair for any value equal to 100" do
+      expect().to eq()
+    end
+  end
+
+end #end describe iterators
