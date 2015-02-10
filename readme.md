@@ -10,7 +10,7 @@ In this lab you will be exploring all the wonderful methods Ruby provides for us
 3. Open the 'iterators.md' file. And follow the instructions provided. Please note, the methods listed are in the same order as those of the tests so it may be helpful for some to do the description and test concurrently. 
 4. Open the 'iterators_spec.rb' and read over the tests that have been provided. 
 5. run '$rspec spec/iterators_spec.rb' from the iterators_testing_lab directory in terminal to run your tests. See what is passing. Read the information an error provides. 
-6. Make the tests pass. (Note: the first test has been provided for you as an example)
+6. Make the tests pass. Note -- the first test has been provided for you as an example. 
 7. Have fun. Tinker.
 
 
