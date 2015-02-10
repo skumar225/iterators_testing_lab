@@ -4,6 +4,7 @@
 Below you will find a list of methods. In the space provided below each, please provide a brief description of what this method does based upon your review of the Docs. 
 
 ###Array methods:
+May be helpful to look in [http://ruby-doc.org/core-2.2.0/Enumerable.html](Enumerables) as well...
 
 ####select:
 
