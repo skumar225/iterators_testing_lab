@@ -3,6 +3,7 @@
 ###Instructions
 Below you will find a list of methods. In the space provided below each, please provide a brief description of what this method does based upon your review of the Docs. 
 
+###Array methods:
 
 ####select:
 
@@ -31,3 +32,4 @@ Below you will find a list of methods. In the space provided below each, please 
 ####include?:
 
 ####nil?:
+
